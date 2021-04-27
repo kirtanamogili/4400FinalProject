@@ -96,8 +96,6 @@ training_label = train.label.values
 def neuralnet_training():
   model = Sequential()
   model.add(Dense(15, input_dim=10, activation="relu"))
-  model.add(Dense(12, activation='relu'))
-  model.add(Dense(8, activation='relu'))
   model.add(Dense(1, activation='sigmoid'))
   model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy'])
   return model
