@@ -9,6 +9,6 @@ The task is to find all remaining matching pairs like (Li,Rj) in the two tables,
 To run the solution:
 
 1. install dependencies for the solution `pip install python-Levenshtein scikit-learn pandas numpy keras tensorflow`
-2. run the solution `python solution.py`
+2. run the solution `python3 solution.py`
 
 Kirtana Mogili
