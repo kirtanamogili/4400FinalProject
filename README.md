@@ -6,4 +6,9 @@ You are given two tables (left table and right table) of electronic products. Ea
 Three files are provided in data.zip: ltable.csv (the left table), rtable.csv (the right table), and train.csv (the training set). The training set contains a subset of tuple pairs, where some of them are matches and some of them are non-matches. The training set has three columns "ltable_id", "rtable_id", and "label". "label" being 1/0 denotes match/non-match.
 The task is to find all remaining matching pairs like (Li,Rj) in the two tables, excluding those matches already found in the training set.
 
+To run the solution:
+
+1. install dependencies for the solution pip install python-Levenshtein scikit-learn pandas numpy keras tensorflow
+2. run the solution python solution.py
+
 Kirtana Mogili
